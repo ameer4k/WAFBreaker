@@ -70,6 +70,8 @@ python main.py --type cmdi --os windows --encode base64
 
 ### GUI Interface (Security Training)
 
+# Open GUI Interface
+python main.py 
 ![Payload Generator GUI Interface](https://via.placeholder.com/800x500.png?text=Payload+Generator+GUI+Interface)
 
 Interactive payload generation with real-time preview
