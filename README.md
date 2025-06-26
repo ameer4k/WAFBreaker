@@ -21,3 +21,7 @@ git clone https://github.com/ameer4k/WAFBreaker
 cd WAFBreaker
 pip install -r requirements.txt
 
+![WAFBreaker2](https://github.com/user-attachments/assets/bfe1d67b-c3a4-425a-ad84-e5c4a5ba44f7)
+![WAFBreaker2](https://github.com/user-attachments/assets/bfe1d67b-c3a4-425a-ad84-e5c4a5ba44f7)
+
+
