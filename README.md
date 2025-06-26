@@ -150,5 +150,6 @@ Authorized penetration testing
 Improving defensive strategies
 
 Never use this tool on systems without explicit written permission. The developers assume no liability and are not responsible for any misuse or damage caused by this software.
+![Grappph (1)](https://github.com/user-attachments/assets/ffd13562-a0e1-408b-b0ab-9f716b04d145)
 
 
