@@ -300,7 +300,7 @@ def get_waf_bypass_tests(payload_type):
 def cli_main():
     parser = argparse.ArgumentParser(
         description="Advanced Payload Generator for Web Exploitation",
-        epilog="Example: ./payload_gen.py --type xss --technique dom --bypass --encode base64 --obfuscate 2 --output json"
+        epilog="Example: ./main.py --type xss --technique dom --bypass --encode base64 --obfuscate 2 --output json"
     )
     
     # Payload configuration
