@@ -299,7 +299,7 @@ def get_waf_bypass_tests(payload_type):
 # ======================
 def cli_main():
     parser = argparse.ArgumentParser(
-        description="Advanced Payload Generator for Web Exploitation",
+        description="Advanced Payload Generator WAFBreaker",
         epilog="Example: ./main.py --type xss --technique dom --bypass --encode base64 --obfuscate 2 --output json"
     )
     
