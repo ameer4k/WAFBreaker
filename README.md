@@ -37,7 +37,9 @@
 <a id="installation"></a>
 ## ⚙️ Installation
 
-```bash
+```
+
+
 # Clone repository
 git clone https://github.com/ameer4k/WAFBreaker.git
 cd WAFBreaker
@@ -69,12 +71,33 @@ python main.py --type cmdi --os windows --encode base64
 ```
 
 ### GUI Interface (Security Training)
+##### Open GUI Interface , just type: 
+python main.py
 
-##### Open GUI Interface , just type : 
-python  main.py 
-
+![WAF GUI Interface](images/WAFGui.PNG)
 
 Interactive payload generation with real-time preview
+
+## 📸 Screenshots & Testing Examples
+
+### Tool Interface & Testing Results
+
+![WAFBreaker Interface 1](images/WAFBreaker2.PNG)
+
+
+![WAFBreaker Interface 2](images/WAFBreaker5.PNG)
+
+
+![WAFBreaker Testing 1](images/WAFbreaker3.PNG)
+
+
+![WAFBreaker Testing 2](images/WAFbreaker4.PNG)
+
+
+### Performance & Analysis
+
+![Graph Analysis](images/Grappph.png)
+*Performance metrics and payload success rate analysis*
 
 ---
 
