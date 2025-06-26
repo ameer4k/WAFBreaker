@@ -14,5 +14,5 @@ Advanced payload generator for XSS, SQL Injection, and Command Injection vulnera
 ## Installation
 ```bash
 git clone https://github.com/your-repo/payload-generator.git
-cd payload-generator
+cd WAFBreaker
 pip install -r requirements.txt
