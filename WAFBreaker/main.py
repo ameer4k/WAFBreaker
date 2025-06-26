@@ -15,6 +15,15 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext, filedialog
 
 # ======================
+# ASCII BANNER
+# ======================
+BANNER = r"""
+╦ ╦╔═╗╔═╗╔╗ ┬─┐┌─┐┌─┐┬┌─┌─┐┬─┐
+║║║╠═╣╠╣ ╠╩╗├┬┘├┤ ├─┤├┴┐├┤ ├┬┘
+╚╩╝╩ ╩╚  ╚═╝┴└─└─┘┴ ┴┴ ┴└─┘┴└─
+"""
+
+# ======================
 # ENUMERATIONS
 # ======================
 class PayloadType(Enum):
@@ -298,9 +307,13 @@ def get_waf_bypass_tests(payload_type):
 # CLI INTERFACE
 # ======================
 def cli_main():
+    # Print the banner at the start of CLI execution
+    print(BANNER)
+    
     parser = argparse.ArgumentParser(
         description="Advanced Payload Generator WAFBreaker",
-        epilog="Example: ./main.py --type xss --technique dom --bypass --encode base64 --obfuscate 2 --output json"
+        epilog="Example: ./main.py --type xss --technique dom --bypass --encode base64 --obfuscate 2 --output json",
+        formatter_class=argparse.RawDescriptionHelpFormatter  # Preserve banner formatting
     )
     
     # Payload configuration
