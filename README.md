@@ -36,8 +36,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/web-exploitation-payload-generator.git
-cd web-exploitation-payload-generator
+git clone https://github.com/ameer4k/WAFBreaker.git
+cd WAFBreaker
 
 # Install dependencies
 pip install -r requirements.txt
@@ -150,3 +150,5 @@ Authorized penetration testing
 Improving defensive strategies
 
 Never use this tool on systems without explicit written permission. The developers assume no liability and are not responsible for any misuse or damage caused by this software.
+
+
