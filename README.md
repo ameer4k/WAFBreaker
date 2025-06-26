@@ -2,6 +2,10 @@
 
 Advanced payload generator for XSS, SQL Injection, and Command Injection vulnerabilities wi>
 
+![WAFbreaker](https://github.com/user-attachments/assets/a2c41e6d-8c2c-41d7-936c-30cc72939e66)
+![WAFbreaker](https://github.com/user-attachments/assets/a2c41e6d-8c2c-41d7-936c-30cc72939e66)
+
+
 ## Features
 - Multiple vulnerability types (XSS, SQLi, Command Injection)
 - WAF bypass techniques
@@ -16,3 +20,4 @@ Advanced payload generator for XSS, SQL Injection, and Command Injection vulnera
 git clone https://github.com/ameer4k/WAFBreaker
 cd WAFBreaker
 pip install -r requirements.txt
+
